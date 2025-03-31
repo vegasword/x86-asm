@@ -1,0 +1,11 @@
+.vs/
+*.exe 
+*.dll 
+*.ilk 
+*.pdb 
+*.exp 
+*.lib 
+*.pch 
+*.map 
+*.obj 
+*.ini
