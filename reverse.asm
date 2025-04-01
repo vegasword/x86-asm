@@ -16,11 +16,11 @@ Reverser PROC
   mov ecx,[ebp+16]
   test ecx,ecx
 
-  ; Reverse elements
   lea esi,[esi+ecx*4-4]
   pushfd
   std
 
+; Reverse elements
 @@: lodsd
   mov [edi],eax
   add edi,4
